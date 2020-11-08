@@ -1,0 +1,33 @@
+#red {
+    position: relative;
+    margin-top: 300px;
+    margin-left: 400px;
+}
+
+#silver {
+    /*display: block;*/
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 450px;
+}
+
+/*.RedSilver{
+    
+    position:relative;
+}*/
+
+#green {
+    position: fixed;
+    right: 0px;
+    top:100px;
+}
+
+#blue {
+display: flex;
+justify-content: flex-end;
+}
+
+#yellow {
+    align-self: flex-end;
+}
+
