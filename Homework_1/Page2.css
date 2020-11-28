@@ -1,0 +1,95 @@
+#bodyPage{
+    background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body {
+    font-size: 16px;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+#signupBox{
+
+    margin-top: 40%;
+    align-self: center;
+    background-color:#ffffff;
+    border-radius: 5px;
+    
+    width: 400px;
+    height: 350px;
+
+}
+
+#signupBoxContent{
+    max-width: 32rem;
+    width: 90%;
+    padding: 2.5rem;
+
+}
+
+#flutterText{
+    
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+}
+#signupText{
+    margin-top: 0.5em;
+    margin-bottom: 40px;
+    color: #848694;
+}
+
+
+input {
+    
+    width: 87%;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-color: #e5e7f8;
+    color: #bababa;
+    margin: 10px 0px 10px 0px;
+}
+
+input:focus {
+    border-bottom-color: #cad0f4;
+    
+  }
+
+
+  #submitButton {
+    margin-top: 30px;
+    margin-left: 14.5em;
+    margin-right: 2.5em;
+    position: relative;
+    width: 120px;
+    height: 30px;
+    background-color: #55bcd6;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1.0 ;
+  }
+
+  @media screen and (max-width:890px) {
+
+    #signupBox{
+        max-width: 90%;
+    }
+
+    input:focus {
+        border-bottom-color: #cad0f4;
+      }
+  }

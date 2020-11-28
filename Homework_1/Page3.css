@@ -1,0 +1,281 @@
+body{
+    background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+    
+    font-size: 16px;
+    
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#navigationPage{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    
+    align-self: start;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+
+#navigationTitle{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 2rem;
+    color: #444444;
+    margin-left: 50px;
+
+    font-weight: lighter;
+}
+#navigationSearchBar{
+    width: 200px;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #f6f7fd;
+    border-color: #eff1fc;
+    
+    
+}
+
+#searchIcon {
+    position: absolute;
+    
+    right: 50px;
+    top: 10px;
+    
+    text-align: right;
+ }
+#profile{
+    background-color:#ffffff;
+    border-radius: 2px;
+    
+    width: 300px;
+    height: 220px;
+    max-width: 18rem;
+    margin-right: 5px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: 40px;
+        
+}
+
+#profilePicAndName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profilePic{
+    
+    width: 5.25rem;
+    height: 5.25rem;
+    border-radius: 50%;
+}
+
+#nameProfile{
+    font-weight: bold;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.profileInfoChildren .actionProfileInfoChildren {
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    margin-left: 10px;
+
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.profileInfoChildren .countProfileInfoChildren {
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+    
+
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #50bcd5;
+
+    margin-inline-start: 50%;
+}
+
+#logOutButton{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 20px;
+    align-self: center;
+    position: absolute;
+    right: 15px;
+
+    background-color: #f6f7fd;
+    color:  #50bcd5;
+    font-weight: bold;
+    border-color:  #50bcd5;
+    border-style: solid;
+}
+
+
+
+
+#profileInfo{
+    width: 100%;
+    height: 3.75rem;
+    
+    display: flex;
+    align-self: flex-end !important;
+    margin-bottom: 0px;
+    background-color: #f6f7fd;
+
+}
+
+
+#posts{
+    background-color:#ffffff;
+    border-radius: 2px;
+    
+    width: 550px;
+    height: 100%;
+
+    max-width: 55rem;
+
+    position: relative;
+    top: 40px;
+}
+
+#postSomething{
+    display: flex;
+    align-items: center;
+    background-color: #f4fcfd;
+    
+    height: 3rem;
+}
+
+#profilePicPostSomething{
+    position: absolute;
+    left: 2rem;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+#postSomethingTextbox{
+    margin-left: auto;
+    margin-right: 2rem;
+    height: 2rem;
+    width: 82%;
+    border-radius: 20px;
+
+    background-color: white;
+    color: #50bcd5;
+    font-weight: bold;
+    border: #50bcd5;
+    border-style: none;
+}
+#commentIcon{
+    color: teal;
+    position: absolute;
+    right: 42px;
+}
+
+hr{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.post{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: white;
+
+    width: 100%;
+    min-height: 7rem;
+
+    padding-bottom: 1rem;
+}
+
+
+.postPicture{
+    border-radius: 50%;
+
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 10px 10px 10px 2em;
+
+}
+
+.actualPost{
+ font-size: 0.875rem;
+}
+.namePost{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.timeAdded{
+    font-size: 0.875rem;
+    color: grey;
+    font-weight: normal;
+
+}
+
+.deleteButton{
+    color: grey;
+    position: absolute;
+    right:20px;
+}
+
+.postText{
+    margin-right: 20px;
+}
+
+.likesAndDislikes{
+    margin-right: 30px;
+}
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+  @media screen and (max-width:890px) {
+
+    main{
+        flex-wrap: wrap;
+    }
+
+    #profile{
+        width: 90%;
+        max-width: 90%;
+    }
+    
+    #posts{
+        width:90%;
+    }
+
+    #postSomethingTextbox{
+        max-width: 70%;
+    }
+
+  }
